@@ -1,0 +1,180 @@
+@media (max-width: 1027px) and (min-width:980px) {
+    body {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        margin-right: 4em;
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 30px;
+        height: 10px;
+        border-top: 3px solid #050068;
+    }
+
+    .nav>.nav-links {
+        display: block;
+        width: 100%;
+        background-color: #7ac2f7;
+        height: 0px;
+        transition: all 0.3s ease-in-out;
+        overflow-y: hidden;
+        left: 0px;
+        border-radius: 1%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(36vh - 0px);
+        overflow-y: auto;
+    }
+
+    .nav-title {
+        margin-top: 0.3em;
+    }
+
+    .progresso {
+        position: fixed;
+        top: 5em;
+        z-index: 100;
+        width: 100%;
+    }
+
+    .barraprogresso {
+        height: 5px;
+        background: #004aac;
+    }
+
+    #coracaoquegira {
+        margin-left: 2em;
+    }
+
+    #parte1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #texto1 {
+        margin: 0;
+        padding-top: 1em;
+    }
+
+    #img1 {
+        height: 20em;
+        width: 20em;
+    }
+
+    #desvantagens {
+        margin-top: 20em;
+    }
+
+    #imgrespiro {
+        margin-top: 80em;
+    }
+
+    #blablabla {
+        margin-bottom: 1.3em;
+    }
+
+    .textoeimagemaplicacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aplicacao {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #img2 {
+        display: none;
+    }
+
+    #aplicacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav>.nav-links {
+        font-size: 20px;
+    }
+
+    .textoaplicacao {
+        width: 100%;
+    }
+
+    #titulo3 {
+        margin-top: 4.2em;
+    }
+
+    .textoeimagemaplicacao {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3em;
+    }
+
+    .imagemaplicacao {
+        margin-top: 2em;
+        display: flex;
+    }
+
+    #citacao {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .container,
+    .container2 {
+        margin-left: -0.2em;
+    }
+
+    .fotos {
+        width: 10em;
+        border-radius: 5px;
+    }
+
+    #onda {
+        margin-top: -20em;
+    }
+
+    #newslerner {
+        text-align: center;
+    }
+
+    #tamanho {
+        display: flex;
+        flex-direction: column;
+        gap: .2em;
+    }
+
+}
